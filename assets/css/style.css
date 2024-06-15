@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --text-dark: #111827;
+  --text-light: #6b7280;
+  --white: #ffffff;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btnH {
+  padding: 15px 40px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none; 
+  background: linear-gradient(45deg, #e35401, #ed7e35);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 2rem;
+  transition: all 0.3s ease;
+  margin-right: 1rem;
+}
+
+.btnH:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(45deg, #ed7e35, #e35401);
+}
+
+.btnF {
+  padding: 15px 40px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none; 
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+
+.btnF:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.image{
+  transition: 1s ease;
+}
+
+.image:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 0 1rem;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
+  align-items: center;
+}
+
+.content h1 {
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.content h1 span {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.content p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+  line-height: 1.75rem;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  isolation: isolate;
+}
+
+.image img {
+  width: 100%;
+  max-width: 475px;
+}
