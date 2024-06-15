@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/yram-nna12/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="" alt="" width="130" height="100">
+    <img src="" alt="" width="130" height="">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3: Headers and Footers Display Website</h3>
@@ -20,11 +20,8 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=yram-nna12/WD-Seatwork 3)
+![](https://visit-counter.vercel.app/counter.png?page=yram-nna12/WD-Seatwork3)
 
----
-
-<br />
 <br />
 
 <!-- TODO: If you want to add more layers for your readme -->
@@ -78,7 +75,9 @@ The project makes use of CSS for style and layout modifications, FontAwesome ico
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 | Dreamy UI Kit for Adobe XD | Reference of footer | [Link](https://ph.pinterest.com/pin/401805598015864134/) |
+
 | Divi Headers Pack | Reference for Header | [Link](https://www.elegantthemes.com/marketplace/divi-headers-pack/) |
+
 | W3School | Other reference (Position, alignement etc.) | [Link](https://www.w3schools.com/) |
 | Font Awesome Free | Font & Icon Reference | [Link](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css) |
 
