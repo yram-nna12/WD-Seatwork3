@@ -13,8 +13,9 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-</div>
 It demonstrates skills with effects, many different pages, and container management in HTML and CSS. The article offers creative proposals and templates for website footers and headers.
+</div>
+
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
@@ -95,4 +96,3 @@ This page is divided into 2 contents, static design (Design 1-5) and animated de
 | Divi Headers Pack | Reference for Header | [Link](https://www.elegantthemes.com/marketplace/divi-headers-pack/) |
 | W3School | Other reference (Position, alignement etc.) | [Link](https://www.w3schools.com/) |
 | Font Awesome Free | Font & Icon Reference | [Link](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css) |
-|-|-|-|
