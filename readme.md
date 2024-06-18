@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/yram-nna12/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="" alt="" width="130" height="">
+    <img src="/pages/header-gallery/assets/img/logoforheader.png" alt="" width="130" height="">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3: Headers and Footers Display Website</h3>
