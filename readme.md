@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-It demonstrates skills with effects, many different pages, and container management in HTML and CSS. The article offers creative proposals and templates for website footers and headers.
+It demonstrates skills with effects, many different pages, and container management in HTML and CSS. This will offers creative proposals and templates for website footers and headers.
 </div>
 
 <br />
