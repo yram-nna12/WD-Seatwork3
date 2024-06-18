@@ -73,11 +73,11 @@ The project makes use of CSS for style and layout modifications, FontAwesome ico
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
+|-|-|-|
+
 | Dreamy UI Kit for Adobe XD | Reference of footer | [Link](https://ph.pinterest.com/pin/401805598015864134/) |
-
 | Divi Headers Pack | Reference for Header | [Link](https://www.elegantthemes.com/marketplace/divi-headers-pack/) |
-
 | W3School | Other reference (Position, alignement etc.) | [Link](https://www.w3schools.com/) |
-
 | Font Awesome Free | Font & Icon Reference | [Link](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css) |
 
+|-|-|-|
