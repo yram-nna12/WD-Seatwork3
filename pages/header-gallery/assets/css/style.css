@@ -64,99 +64,177 @@
       }
     }
 
-  header.design-one {
-    width: 100vw;
+    .design-one{
+      width: 100%;
+    }
+    .design-one header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #f1f1f1;
+  }
+  
+  .design-one .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .design-one .hamburger {
+      font-size: 24px;
+      cursor: pointer;
+      margin-left: 15px;
+  }
+  
+  .design-one .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+  
+  .design-one .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+  
+  .design-one .dropdown-content a:hover {
+      background-color: #ddd;
+  }
+  
+  .design-onen .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+  .design-one .logo {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .design-one .logo img {
+      max-height: 80px;
+  }
+  
+  .design-one .icons i {
+      margin-left: 40px;
+      margin-right: 20px;
+      font-size: 24px;
+      cursor: pointer;
+  }
+
+  .design-two {
+    width: 100%;
+    background-color: #f1f1f1;
     display: flex;
     justify-content: space-between;
-    padding: 0.0rem 5vw;
-    background: rgb(255, 255, 255);
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .design-two .left-section {
+    display: flex;
+  }
+  
+  .design-two .logo img {
+    max-height: 80px;
+    margin-right: 20px;
+  }
+  
+  .design-two .hamburger {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .design-two .search-bar {
+    flex-grow: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .design-two .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .design-two .search-bar button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #000000;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .design-two .icons {
+    display: flex;
+  }
+  
+  .design-two .icons i {
+    margin-left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+  }
 
-    & > nav.navigation {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
+  .design-three {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
 
-        & > a.navigation-content{
-          font-weight: 600;
-          font-size: 1.1rem;
-          color: rgb(0, 0, 0);
-          font-family: "Poppins", sans-serif;
-        }
-          & > a.different-font{
-          font-size: 0.9rem;
-          color: aliceblue;
-          border: 1px white solid;
-          padding: 0.4rem 1.5rem;
-          border-radius: 7px;
-          background-color: rgb(0, 0, 0);
-        }
-      }
-    }
+.design-three .left-section {
+    display: flex;
+    align-items: center;
+}
 
-    .design-two {
-        display: flex;
-            align-items: center;
-            padding: 0.5rem;
-            box-shadow: 4px 4px rgb(140, 144, 145);
-            border-radius: 5px;
-            background-color: #f0f0f0;
-            width: calc(100% - 1rem);
-        }
+.design-three .logo img {
+    max-height: 80px;
+}
 
-        .design-two .logo {
-            margin-right: auto;
-        }
+.design-three .middle-section nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
 
-        .design-two .navigation {
-            display: flex;
-            gap: 4rem;
-            align-items: center;
-            justify-content: center;
-            flex: 5;
-        }
+.design-three .middle-section nav ul li {
+    margin: 20px;
+}
 
-        .design-two .nav-button {
-          font-family: "Poppins", sans-serif;
-          color: black;
-          font-weight: 800;
-          font-size: 1.1rem;
-          text-decoration: none; /* Remove underline */
-      }
+.design-three .middle-section nav ul li:last-child {
+    margin-right: 0;
+}
 
+.design-three .middle-section nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
 
-    .design-three {
-        display: flex;
-        width: 100vw;
-        justify-content: space-between;
-        padding: 0.5rem 9vw;
-        align-items: center;
-        background: rgb(207, 156, 118);
+.design-three .right-section .icons {
+    display: flex;
+}
 
-        & > .navigation {
-          display: flex;
-          gap: 2rem;
-          align-items: center;
-
-          & > .navigation-content {
-            color: rgb(0, 0, 0);
-            font-weight: 800;
-            font-size: 1.2rem;
-            font-family: "Poppins", sans-serif;
-          }
-
-          & > .button {
-            border: 1px rgb(0, 0, 0) solid;
-            font-size: 0.9rem;
-            color: rgb(255, 255, 255);
-            background-color: rgb(45, 44, 44);
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-          }
-        }
-      }
-
-
-     
+.design-three .right-section .icons i {
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
 
       .design-four {
         display: flex;
@@ -180,10 +258,10 @@
     }
     
     .design-four .navigation .nav-button {
-        font-family: "Poppins", sans-serif;
+        font-family: 'Poppins', sans-serif;
         color: black;
         font-weight: 800;
-        font-size: 1rem; /* Adjust font size as needed */
+        font-size: 1rem;
         text-decoration: none;
     }
     
@@ -231,7 +309,7 @@
   }
   
   .design-five .navigation .nav-button {
-      font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
       color: black;
       font-weight: 800;
       font-size: 1rem;
@@ -295,7 +373,7 @@
               font-weight: 600;
               font-size: 1.1rem;
               color: rgb(0, 0, 0);
-              font-family: "Poppins", sans-serif;
+              font-family: 'Poppins', sans-serif;
               transition: color 0.3s;
             }
               & > a.different-font{
@@ -336,7 +414,7 @@
           }
   
           .design-seven .nav-button {
-            font-family: "Poppins", sans-serif;
+            font-family: 'Poppins', sans-serif;
             color: black;
             font-weight: 800;
             font-size: 1.1rem;
@@ -369,7 +447,7 @@
           color: rgb(0, 0, 0);
           font-weight: 800;
           font-size: 1.2rem;
-          font-family: "Poppins", sans-serif;
+          font-family: 'Poppins', sans-serif;
         }
         
         .design-eight .button {
@@ -432,12 +510,12 @@
         }
         
         .design-nine .navigation .nav-button {
-          font-family: "Poppins", sans-serif;
+          font-family: 'Poppins', sans-serif;
           color: black;
           font-weight: 800;
-          font-size: 1rem; /* Adjust font size as needed */
+          font-size: 1rem;
           text-decoration: none;
-          position: relative; /* Ensure dropdown positioning */
+          position: relative; 
         }
         
         .design-nine .navigation .bi {
@@ -472,7 +550,7 @@
         
         .design-nine .dropdown-menu {
           position: absolute;
-          top: 100%; /* Position the dropdown menu below the "Services" button */
+          top: 100%; 
           left: 0;
           display: none;
           min-width: 10rem;
